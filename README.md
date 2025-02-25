@@ -39,13 +39,17 @@ These insights help **optimise underwriting strategies, pricing models, and mark
 
 
 ## **4. Insights Deep Dive**
-### **📊 Claims Analysis by Age Group & Severity**
-- **Stacked Bar Chart**: Age groups are divided into **Low, Medium, and High claim severity**.
-- **Key Insight**: **Older customers (45+) had fewer but higher-severity claims**, affecting underwriting risk.
 
-### **📈 Premium Adjustment Analysis**
-- **Combo Chart**: Premium adjustments vs. prior insurance and credit scores.
-- **Key Insight**: Customers with **prior insurance** and **higher credit scores** received more **favorable premium adjustments**.
+[Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/commit/f89081e3c7d32cef87c27402def9c7bb8ebf10f1)
+
+
+### **📊 Distribution Channels**
+- **Donut Chart**: Three mains distribution channels: Agent, Online & Referral**
+- **Key Insight**: **Online is the main distribution channel (60%), Agent and Referral are 30% and 10% respectively**
+
+### **📈 Average Conversion Rates**
+- **Column Chart**: To calculate the Average Time of Conversion, Quotes Requested and Average of Time Since First Contact
+- **Key Insight**: All three types of distribution channel used the **almost the same average times of Conversion, Quotes Requested and Average of Time Since First Contact**
 
 ### **📉 Customer Conversion Trends**
 - **Pivot Table & Line Chart**: Analyzed time-to-conversion by source.
