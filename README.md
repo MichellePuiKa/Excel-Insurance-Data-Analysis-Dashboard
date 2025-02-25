@@ -40,7 +40,7 @@ These insights help **optimise underwriting strategies, pricing models, and mark
 
 ## **4. Insights Deep Dive**
 
-![Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/commit/f89081e3c7d32cef87c27402def9c7bb8ebf10f1)
+![Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Dashboard.PNG)
 
 
 ### **📊 Distribution Channels**
