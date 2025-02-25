@@ -1,7 +1,7 @@
 # Excel-Insurance-Data-Analysis-Dashboard
 
 ## **1. Background and Overview**
-Insurance underwriting plays a critical role in assessing policyholder risk, optimizing premium pricing, and managing claims. This project analyzes customer data, policy attributes, and claim patterns to identify key trends and support **data-driven decision-making**.  
+Insurance underwriting plays a critical role in assessing policyholder risk, optimizing premium pricing, and managing claims. This project analyses customer data, policy attributes, and claim patterns to identify key trends and support **data-driven decision-making**.  
 
 This analysis is done in **Microsoft Excel**, leveraging **pivot tables, calculated fields, and interactive charts** to present actionable insights.  
 
@@ -28,48 +28,61 @@ Data cleaning steps include **removing duplicates, handling missing values, and 
 
 
 ## **3. Executive Summary**
-### **Key Findings**
-✔ **Young policyholders (Under 25) had the highest claims frequency**, while **middle-aged customers (35-44) showed lower risk profiles**  
-✔ **Higher credit scores correlated with lower claims severity** and **lower premium adjustments**  
-✔ **Bundling policies (multi-policy discounts) led to increased customer retention and lower claims frequency**  
-✔ **Online leads converted faster than broker-referred customers**, indicating a shift in distribution trends
+![Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Dashboard.PNG)
 
-These insights help **optimise underwriting strategies, pricing models, and marketing efforts** to enhance profitability.
+This project analyses personal auto insurance data to uncover key insights related to distribution channels, time-to-conversion, claim frequency, and severity across different demographics and regions. The findings aim to support data-driven decision-making for optimizing sales strategies, risk management, and customer engagement.
 
+### **Key Findings:**
+- Distribution Channels: Online is the most dominant channel, contributing 60% of policy sales, followed by agents (30%) and referrals (10%)
+- Time-to-Conversion: Agents show slightly higher average time-to-conversion compared to Online and Referral channels
+- Claim Frequency by Region & Age Group: Urban regions have the highest claim frequency, making up 49% of total claims.  The 35-44 age group in urban areas reports the highest number of claims, peaking at 400 claims under Full Coverage
+- Regional Variations in Claims: Urban regions have the highest claim frequency, followed by suburban (30%) and rural (20%)
+- Claim Severity: The majority of claims fall under low severity, followed by medium and high severity
 
 
 ## **4. Insights Deep Dive**
 
-![Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Dashboard.PNG)
-
-
-### **📊 Distribution Channels**
 ![Donut Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Distribution%20Channels.PNG)
 
-- **Donut Chart**: Three mains distribution channels: Agent, Online & Referral**
-- **Key Insight**: **Online is the main distribution channel (60%), Agent and Referral are 30% and 10% respectively**
+- **Three Distribution Channels:** Agent, Online & Referral
+- **Key Insight**: Online is the primary distribution channel, accounting for 60% of total policies, while Agent and Referral contribute 30% and 10%, respectively
 
-### **📈 Average Conversion Rates**
-- **Column Chart**: To calculate the Average Time of Conversion, Quotes Requested and Average of Time Since First Contact
-- **Key Insight**: All three types of distribution channel used the **almost the same average times of Conversion, Quotes Requested and Average of Time Since First Contact**
 
-### **📉 Customer Conversion Trends**
-- **Pivot Table & Line Chart**: Analyzed time-to-conversion by source.
-- **Key Insight**: **Online inquiries had a 20% faster conversion rate** compared to traditional broker leads.
+![Column Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Comparison%20of%20Average%20Conversion%20Rates.PNG)
 
+- Analyzed time-to-conversion for both insurance types across all 3 distribution channels
+- **Key Insight**: The Agent channel had a slightly higher average time-to-conversion rate compared to Online and Referral channels
+
+
+![Stacked Column](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Average%20of%20Claims%20Frequency%20Per%20Age%20Groups%20with%20Regions.PNG)
+
+- **Regions**: Urban, Suburban & Rural
+- **Key Insight**: The 35-44 age group had the highest average claim frequency, with those living in Urban areas accounting for 49% of total claims within this group. Meanwhile, individuals in the same age group residing in Suburban and Rural areas contributed to 30% and 20% of the claims, respectively
+
+
+![Column Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/The%20Highest%20Claim%20Frequency%20Per%20Regions.PNG)
+
+- Categorised by Policy Types and Regions
+- **Key Insight**: For Full Coverage policies in Urban region, the highest claim frequency was observed, with the 35-44 age group reporting the most claims, reaching 400. Liability-Only policies in Urban region had the second-highest claim frequency, with the 25-34 and 35-44 age groups showing nearly identical claim counts of 224 and 226, respectively
+
+
+![Stacked Bar Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Claim%20Frequency%20and%20Severity%20Breakdwon%20by%20Age%20Group%20%26%20Policy%20Type.PNG)
+
+- Categorised by Age Group and Policy Types with Low, Medium and High Severity
+- **Key Insight**: Overall, most claims fall under the low severity category, followed by medium severity, with high-severity claims being the least common
 
 
 ## **5. Recommendations**
-🚀 **Enhance Pricing Strategies**: Adjust premium structures for younger policyholders based on risk segmentation.  
-📢 **Optimize Digital Lead Generation**: Invest more in online acquisition channels due to faster conversion rates.  
-🔄 **Encourage Multi-Policy Bundling**: Further promote bundling to increase policyholder retention and reduce claims frequency.  
-📊 **Expand Risk-Based Underwriting**: Use more granular data points (such as driving history) to refine underwriting decisions.  
 
+- **Optimize Digital Marketing:** Since Online is the primary distribution channel, enhancing digital marketing efforts can drive higher engagement and conversions.
+- **Improve Agent Efficiency:** Streamlining the agent sales process through better tools and training could reduce time-to-conversion.
+- **Adjust Premium Pricing for High-Risk Segments:** The 35-44 age group in urban areas shows the highest claim frequency, suggesting a need for risk-based pricing adjustments.
+- **Strengthen Referral Programs:** With referrals contributing only 10%, incentives can be improved to increase customer acquisition through word-of-mouth.
+- **Implement Risk Mitigation Strategies:** For urban policyholders, promoting safer driving initiatives or telematics-based insurance could help manage claim risks.
 
 
 ## **💡 Connect & Feedback**
-🔗 Have suggestions or feedback? Feel free to **open an issue**!  
-📜 License: This project is for **educational and demonstration purposes**.  
+Have suggestions or feedback? Feel free to **open an issue**!  
 
 
 
