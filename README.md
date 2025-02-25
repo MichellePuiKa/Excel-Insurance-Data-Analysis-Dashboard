@@ -40,10 +40,12 @@ These insights help **optimise underwriting strategies, pricing models, and mark
 
 ## **4. Insights Deep Dive**
 
-[Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/commit/f89081e3c7d32cef87c27402def9c7bb8ebf10f1)
+![Dashboard](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/commit/f89081e3c7d32cef87c27402def9c7bb8ebf10f1)
 
 
 ### **📊 Distribution Channels**
+![Donut Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Distribution%20Channels.PNG)
+
 - **Donut Chart**: Three mains distribution channels: Agent, Online & Referral**
 - **Key Insight**: **Online is the main distribution channel (60%), Agent and Referral are 30% and 10% respectively**
 
